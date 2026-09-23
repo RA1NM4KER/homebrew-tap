@@ -1,18 +1,18 @@
 class AgentRelay < Formula
   desc "Keep Claude Code and Codex sessions moving when one account hits its usage limit"
   homepage "https://github.com/RA1NM4KER/agent-relay"
-  # Tracks the latest GREEN main build. Commit: cdcd922c39b521c788e1cfce74e65539ce0b1710
-  version "0.3.1-dev.113"
+  # Tracks the latest GREEN main build. Commit: 66642ebe99cc5b80b5c27d39e4830634756d986d
+  version "0.3.1-dev.116"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.113-cdcd922-aarch64-apple-darwin.tar.gz"
-      sha256 "0bf6b0b6b756c27ea414f7f1bdc58521ceeaffdb23956cdd992a58404dd26f15"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.116-66642eb-aarch64-apple-darwin.tar.gz"
+      sha256 "7586a71d0b70b97da6d9286c543ad994e7043b89dc797a2490f531c34352fd05"
     end
     on_intel do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.113-cdcd922-x86_64-apple-darwin.tar.gz"
-      sha256 "6f9910d99ad1cb39e303b5b6e82663fead19f16c658b81dc0b6f0ba63d583d64"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.116-66642eb-x86_64-apple-darwin.tar.gz"
+      sha256 "9fb3a38adb28d878bceba5037d021d44b4e7af0027707ce36c29a2ea83df7eae"
     end
   end
 
