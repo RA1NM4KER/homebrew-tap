@@ -1,18 +1,17 @@
 class AgentRelay < Formula
   desc "Keep Claude Code and Codex sessions moving when one account hits its usage limit"
   homepage "https://github.com/RA1NM4KER/agent-relay"
-  # Tracks the latest GREEN main build. Commit: 85db4e9fec6810abfb5572e5effff21a5d4b5aba
-  version "0.3.1-dev.122"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.122-85db4e9-aarch64-apple-darwin.tar.gz"
-      sha256 "3b78e388f0e02bcf535f2bc62c49ca3024308f35f188c405c1185dfff3d78969"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/v0.4.0/agent-relay-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2473a917253be4f38e556545a503383c8670e6db7e78ac1ddef9c9f0c97fac4b"
     end
     on_intel do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.3.1-dev.122-85db4e9-x86_64-apple-darwin.tar.gz"
-      sha256 "23fce2e82db6d2c46162730b194e711a4f1149d6f15160ce7bb53cfc8f67fb53"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/v0.4.0/agent-relay-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "92f1268ca7c7a484d25bb7352cfd7cca00161e6801ac05ed0fd776d754b78515"
     end
   end
 
