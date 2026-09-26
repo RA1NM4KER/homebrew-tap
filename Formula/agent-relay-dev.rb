@@ -1,20 +1,20 @@
 class AgentRelayDev < Formula
-  desc "Agent Relay, bleeding-edge dev build (latest green main, commit 0333c7e)"
+  desc "Agent Relay, bleeding-edge dev build (latest green main, commit c3afe63)"
   homepage "https://github.com/RA1NM4KER/agent-relay"
   # Tracks the rolling dogfood pre-release, not a tagged version. The dogfood workflow renders
   # and updates this dev-only formula after each green main build; Formula/agent-relay.rb remains
   # owned by deliberate stable releases.
-  version "0.4.2-dev.137"
+  version "0.4.2-dev.138"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.4.2-dev.137-0333c7e-aarch64-apple-darwin.tar.gz"
-      sha256 "11f36790061cd1a6f0fe2e079c699ebb879b27bc7a9abf707b9da7df9625ec6a"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.4.2-dev.138-c3afe63-aarch64-apple-darwin.tar.gz"
+      sha256 "6e4c4b344204bc3a3c0baecb06ca33a9629617cf43674b0ecd69e5c83040203b"
     end
     on_intel do
-      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.4.2-dev.137-0333c7e-x86_64-apple-darwin.tar.gz"
-      sha256 "ddc856b3c5e2c98741c74331380eb949aae3c80d3a09221ed3e34414028441d7"
+      url "https://github.com/RA1NM4KER/agent-relay/releases/download/dogfood/agent-relay-0.4.2-dev.138-c3afe63-x86_64-apple-darwin.tar.gz"
+      sha256 "3fb82cb626cf25d9dbc7ec78d83f30fedfbd3135a3a73dbd4f40d1680dd9282e"
     end
   end
 
